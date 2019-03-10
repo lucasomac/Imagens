@@ -1,8 +1,8 @@
 import numpy as np
 
 def fourier(imagem):
-    largura = imagem.shape[0]
-    altura = imagem.shape[1]
+    largura = imagem.shape[1]
+    altura = imagem.shape[0]
     imagem_saida = np.zeros_like(imagem)
 
     for u in range(0, largura):
