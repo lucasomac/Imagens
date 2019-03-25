@@ -50,8 +50,8 @@ def nchannels(imagem):
 # Q.04 OK
 def size(imagem):
     vetor = [0] * 2
-    vetor[0] = imagem.shape[0]
-    vetor[1] = imagem.shape[1]
+    vetor[0] = imagem.shape[1]
+    vetor[1] = imagem.shape[0]
     return vetor
 
 
